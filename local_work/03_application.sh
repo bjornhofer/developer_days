@@ -8,6 +8,7 @@ echo "copy the line below and paste it into appropriate place in the file (line 
 az acr list --resource-group AUVA --query "[].{acrLoginServer:loginServer}" --output tsv
 read -p "Press any key to continue... " -n1 -s
 
+# Should be auvadevloperdays.azurecr.io/azure-vote-front:v1 afterwards... ;-)
 vi /home/azuser/git/azure-voting-app-redis/azure-vote-all-in-one-redis.yaml
 
 clear
