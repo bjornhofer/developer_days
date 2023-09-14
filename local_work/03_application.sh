@@ -16,4 +16,5 @@ kubectl apply -f /home/azuser/git/azure-voting-app-redis/azure-vote-all-in-one-r
 
 
 read -p "Wait a few moments for public IP is deployed" -n1 -s
+
 kubectl get service azure-vote-front --watch
