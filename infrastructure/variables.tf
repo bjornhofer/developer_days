@@ -1,15 +1,15 @@
 variable "basename" {
   type = string
-  default = "catupload"
+  default = "devloper"
 }
 
 variable "prefix" {
   type = string
-  default = "AUVA"
+  default = "auva"
 }
 variable "suffix" {
   type = string
-  default = "1234"
+  default = "days"
 }
 
 variable "location" {
