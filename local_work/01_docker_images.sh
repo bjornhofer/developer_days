@@ -4,6 +4,7 @@ cd /home/azuser/git
 git clone https://github.com/Azure-Samples/azure-voting-app-redis.git
 
 cd azure-voting-app-redis
+clear
 
 docker compose up -d
 
