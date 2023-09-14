@@ -11,4 +11,4 @@ read -p "Press any key to continue... " -n1 -s
 
 kubectl scale --replicas=5 deployment/azure-vote-front
 
-kubectl get pods
+watch -n 1 kubectl get pods
